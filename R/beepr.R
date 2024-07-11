@@ -54,7 +54,8 @@ beep <- function(sound=1, expr=NULL) {
               facebook = "facebook.wav",
               sword = "sword.wav",
               nyt = "nyt.wav",
-              espn = "espn.wav")
+              espn = "espn.wav",
+              nba = "nba.wav")
   sound_path <- NULL
   if(sound < 0 || sound == "none") {
     # Play the sound of silence
